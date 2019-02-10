@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom'
 
 import Menu from "./menu";
-import ModelExample from "./shared/model-box/model-example";
+import ModalExample from "./shared/modal-box/modal-example";
 
 
 
@@ -14,7 +14,7 @@ class App extends Component {
         <div className="container-body">
           <Menu />
           <Switch>
-            <Route exact path='/model' component={ModelExample}/>
+            <Route exact path='/modal' component={ModalExample}/>
           </Switch>
         </div>
       </div>

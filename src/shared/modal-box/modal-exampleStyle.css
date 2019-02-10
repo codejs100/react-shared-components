@@ -1,0 +1,19 @@
+.divBody {
+    height: 100%;
+    width: 90%;
+    margin: 2px auto;
+    text-align: center;
+}
+
+.btnModal {
+    padding: 10px;
+    background-color: #568db2;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.btnModal :hover {
+    background-color: #466d87;
+}

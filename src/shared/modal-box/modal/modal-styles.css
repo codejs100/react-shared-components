@@ -1,0 +1,44 @@
+.modalDiv {
+    background-color: lightgray;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.backdropDiv {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9998;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.modalContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    background-color:#fff;
+    padding: 7px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.modelClose {
+    text-align: right;
+    margin: 0 0 2px 2px;
+}
+
+.modelClose > span {
+    cursor: pointer;
+    border: 1px solid lightgrey;
+    color: grey;
+}
+
+.modelClose > span:hover {
+    border: 1px solid black;
+    color: black;
+}

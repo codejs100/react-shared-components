@@ -5,8 +5,8 @@ function Menu() {
 
   const menuItems = () => [
       {
-          link: "model",
-          name: "Model"
+          link: "modal",
+          name: "Modal"
       }
   ];   
   return (
