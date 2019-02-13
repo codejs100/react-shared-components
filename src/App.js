@@ -3,6 +3,7 @@ import { Switch, Route } from 'react-router-dom'
 
 import Menu from "./menu";
 import ModalExample from "./shared/modal-box/modal-example";
+import FlyoutExample from "./shared/flyout-control/flyout-example";
 
 
 
@@ -15,6 +16,7 @@ class App extends Component {
           <Menu />
           <Switch>
             <Route exact path='/modal' component={ModalExample}/>
+            <Route exact path='/flyout' component={FlyoutExample}/>
           </Switch>
         </div>
       </div>

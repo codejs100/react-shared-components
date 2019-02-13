@@ -1,0 +1,25 @@
+.flyout-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 9999;
+    background-color:#fff;
+    padding: 7px;
+    border-left: 1px solid black;
+    width: 40%;
+    height: 100%;
+    text-align: justify;
+}
+
+#flyoutWrapper {
+    transition: transform 3s ease-out;
+}
+
+#flyoutWrapper.hide {
+    transform: translate3d(100vw, 0, 0);
+}
+   
+#flyoutWrapper.show {
+    transform: translate3d(0vw, 0, 0);
+    overflow: hidden;
+}

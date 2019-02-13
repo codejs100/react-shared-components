@@ -7,6 +7,10 @@ function Menu() {
       {
           link: "modal",
           name: "Modal"
+      },
+      {
+          link: "flyout",
+          name: "Flyout"
       }
   ];   
   return (

@@ -65,3 +65,23 @@ ul > li:hover {
 ul > li > a:hover {
   color: white;
 }
+
+.divBody {
+  height: 100%;
+  width: 90%;
+  margin: 2px auto;
+  text-align: center;
+}
+
+.btnClass {
+  padding: 10px;
+  background-color: #568db2;
+  font-size: 1rem;
+  border-radius: 0.3rem;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.btnClass :hover {
+  background-color: #466d87;
+}

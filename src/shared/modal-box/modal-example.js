@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import "./modal-exampleStyle.css"
 
 import Modal from "./modal/modal";
 
@@ -28,7 +27,7 @@ export default class ModalExample extends Component {
       <div>
             <h2>Modal-Box component</h2>
             <div className="divBody">
-                <button onClick={this.modalHandler} className="btnModal">Open Modal Box</button>
+                <button onClick={this.modalHandler} className="btnClass">Open Modal Box</button>
                 <Modal isOpen={this.state.isModalOpen} onClose={this.closeModalHandler}>
                   <h1>Modal title</h1>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate repellendus sunt recusandae explicabo enim ex. Optio vel porro facere, ea et nam culpa quaerat recusandae natus doloremque velit, voluptatibus ab.</p>
